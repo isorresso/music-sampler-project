@@ -32,12 +32,24 @@ $('.album').click(function() {
         $('#dynamite').show();
         break;
       }
-});
+}); /* end of switch function */
+
+/*
+  $('#more').on('click', (event) => {
+    if ($(event.currentTarget).text() === 'READ MORE'){
+      $(event.currentTarget).prev().show();
+      $(event.currentTarget).text('READ LESS');
+    } else {
+      $(event.currentTarget).next().hide();
+      $(event.currentTarget).text('READ MORE');
+    }
+  }) */
 
 $('.text').hide();
 
   $('#more').click(function() {
     $('.text').slideToggle();
+
   });
 
-});
+}); /* entire document */
