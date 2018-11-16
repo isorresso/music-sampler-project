@@ -32,7 +32,6 @@ h2 {
 
 footer {
   padding: 1rem 20rem 1rem 20rem;
-  text-align: center;
 }
 
 #more {
@@ -72,12 +71,21 @@ a:visited {
     padding-left: 10rem;
     padding-right: 10rem;
     }
+
+  footer {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
   }
 
 @media screen and (max-width: 900px) {
   p {
       padding-left: 5rem;
       padding-right: 5rem;
+      }
+  footer {
+        padding-left: 5rem;
+        padding-right: 5rem;
       }
     }
 
@@ -89,6 +97,10 @@ a:visited {
   #coverart {
       padding-left: 7rem;
       padding-right: 5rem;
+    }
+  footer {
+      padding-left: 3rem;
+      padding-right: 3rem;
     }
 }
 

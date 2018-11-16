@@ -40,10 +40,11 @@ $('.album').click(function() {
       $(event.currentTarget).prev().show();
       $(event.currentTarget).text('READ LESS');
     } else {
-      $(event.currentTarget).next().hide();
+      $(event.currentTarget).prev().hide();
       $(event.currentTarget).text('READ MORE');
     }
   }) */
+/* I tried combining the methods of slideToggle and the current event target to try to change the test to "READ LESS", but couldn't figure out how to make the other text elements to stay in the correct locations.*/
 
 $('.text').hide();
 
@@ -51,5 +52,6 @@ $('.text').hide();
     $('.text').slideToggle();
 
   });
+
 
 }); /* entire document */
